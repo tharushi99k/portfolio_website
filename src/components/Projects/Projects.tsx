@@ -21,8 +21,8 @@ const Projects = () => {
        image='/images/projects/pro1.png'
        />
         <ProjectCard 
-       title='Cripto Extention React'
-       description='This is Crypto Extension . It is for responsive web browser.user friendly interface with multiple colors . '
+       title='Curency Calulate Extention React'
+       description='This is Curency Calculate Extension . It is for responsive web browser.user friendly interface with multiple colors . '
        tech1='Reac js'
        tech2='Tailwind CSS'
        tech3='Node js'
