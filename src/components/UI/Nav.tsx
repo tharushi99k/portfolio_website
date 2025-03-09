@@ -10,7 +10,7 @@ interface Props {
 
 const Nav: React.FC<Props> = ({ openNav }) => {
   const [navSticky, setNavSticky] = useState(false);
-  const [activeLink, setActiveLink] = useState<string>("home"); // Track the active link
+  const [activeLink, setActiveLink] = useState<string>("home"); 
 
   useEffect(() => {
     const handleScroll = () => {
