@@ -13,6 +13,10 @@ Welcome to my portfolio website! This project serves as a showcase for my techni
 
 ![Image](https://github.com/user-attachments/assets/fe432dae-7611-4fa9-8b9d-ec33f03fbc95)
 
+![Image](https://github.com/user-attachments/assets/d0b08964-5892-4321-b2a1-f14c9cd1e5c9)
+
+![Image](https://github.com/user-attachments/assets/bd615401-4718-4e5a-aa9d-b70425747973)
+
 
 
 
