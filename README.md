@@ -11,6 +11,7 @@ Welcome to my portfolio website! This project serves as a showcase for my techni
 
 ## 📸 Screenshots
 
+<!-- Uploading "home.png"... -->
 
 
 ## 🚀 Technologies Used
