@@ -7,13 +7,13 @@ interface Props {
 
 const SkillCard2: React.FC<Props> = ({ image }) => {
   return (
-    <div className="p-6 duration-300 transition-all  text-center rounded-lg">
+    <div className="flex p-2 duration-300 transition-all  text-center rounded-lg w-full">
       <Image 
         src={image}
         alt="Skill Image"
-        width={60}
-        height={60}
-        className="object-cover mx-auto"
+        width={500}
+        height={500}
+        className="object-cover  mx-auto size-24  h-auto"
       />
     </div>
   );
