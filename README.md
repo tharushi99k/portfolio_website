@@ -11,21 +11,7 @@ Welcome to my portfolio website! This project serves as a showcase for my techni
 
 ## 📸 Screenshots
 
-### Home Page
-![Home Page](./screenshots/homepage.png)
-A welcoming hero section with an introduction and engaging visuals.
 
-### Projects Section
-![Projects Section](./screenshots/projects.png)
-A dynamic section that showcases the personal projects, highlighting the work completed.
-
-### Skills Section
-![Skills Section](./screenshots/skills.png)
-An overview of the technical skills, tools, and technologies that are part of my expertise.
-
-### Contact Form
-![Contact Form](./screenshots/emailform.png)
-A functional contact form designed to facilitate communication with potential clients or employers.
 
 ## 🚀 Technologies Used
 
