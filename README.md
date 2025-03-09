@@ -34,9 +34,7 @@ Welcome to my portfolio website! This project serves as a showcase for my techni
 - **Deployment:**
   - **Vercel**: The website is deployed using Vercel, ensuring fast and reliable hosting with continuous deployment.
 
-## 📂 Folder Structure
 
-Here is an overview of the project folder structure:
 
 
 
