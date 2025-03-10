@@ -1,7 +1,7 @@
 
 # 🌟 Portfolio Website  
 
-**Published Website:** [Portfolio Website](https://portfolio-tharushinishshanka.netlify.app/)  
+**Published Website:** [Portfolio Website](https://tharushinishshanka-portfolio.netlify.app/)  
 
 Welcome to my personal portfolio website! 🚀 This site serves as a showcase for my skills, projects, and achievements in **web development**. It is built using modern web technologies with a focus on performance, responsiveness, and an interactive user experience.  
 
