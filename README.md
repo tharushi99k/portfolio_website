@@ -1,4 +1,4 @@
-🌟 Portfolio Website
+Portfolio Website
 
 Published Website: https://portfolio-tharushinishshanka.netlify.app/
 
