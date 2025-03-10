@@ -66,7 +66,7 @@ const Projects = () => {
       </div>
 
       {/* Project Slider */}
-      <div className="mt-10 w-[80%] rounded-2xl py-6">
+      <div className=" w-[80%] rounded-2xl py-6">
         <Carousel opts={{ align: "start" }} className="w-full">
           <CarouselContent>
             {projects.map((project, index) => (
@@ -74,8 +74,8 @@ const Projects = () => {
                 key={index}
                 className="sm:basis-full md:basis-1/2 lg:basis-1/3"
               >
-                <div className="p-2">
-                  <div className="p-4 rounded-xl shadow-md bg-[#2F2D36]">
+                <div className="">
+                  <div className="p-2 rounded-xl shadow-md bg-[#2F2D36]">
                     <ProjectCard {...project} />
                   </div>
                 </div>

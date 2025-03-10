@@ -59,7 +59,7 @@ const Nav: React.FC<Props> = ({ openNav }) => {
             ].map(({ to, label }) => (
               <li
                 key={to}
-                className={`text-lg capitalize font-medium lg:px-4 lg:py-4 rounded-2xl transition-all duration-200 hover:text-[#01F191] ${
+                className={`text-base capitalize font-medium lg:px-4 lg:py-4 rounded-2xl transition-all duration-200 hover:text-[#01F191] ${
                   activeLink === to ? "text-green-500" : ""
                 }`}
               >

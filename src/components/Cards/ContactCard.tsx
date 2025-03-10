@@ -48,7 +48,7 @@ const ContactCard = () => {
           email: "",
           subject: "",
           message: "",
-        }); // Optional: Clear form fields after submission
+        }); 
       })
       .catch((error) => {
         console.log(error);
@@ -56,16 +56,16 @@ const ContactCard = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center w-full max-auto border border-[#16EA99] sm:p-6 py-8 rounded-2xl">
+    <div className="flex flex-col items-center justify-center w-full max-auto border border-[#16EA99] p-3 rounded-2xl">
       <h2 className="text-lg sm:text-xl lg:text-2xl mb-5">Let's Work Together</h2>
-      <form onSubmit={handleSubmit} className="grid grid-cols-1 sm:grid-cols-2 gap-[1rem] w-full p-4">
+      <form onSubmit={handleSubmit} className="grid grid-cols-1 sm:grid-cols-2 gap-[1rem] w-full p-4 text-sm">
         <input
           type="text"
           name="name"
           placeholder="Name"
           value={formData.name}
           onChange={handleInputChange}
-          className="col-span-2 sm:col-span-1 sm:block py-2 outline-none text-white bg-[#2F2D36] rounded-md px-3"
+          className="col-span-2 sm:col-span-1 sm:block py-2 outline-none text-white  bg-[#2F2D36] rounded-md px-3"
         />
         <input
           type="email"

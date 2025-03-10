@@ -3,7 +3,7 @@ import ServicesCard from '../../Animation/ServicesCard';
 
 const Services: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full px-4 py-8 gap-16">
+    <div className="flex flex-col items-center justify-center w-full px-4 py-8 gap-6">
       <div className="text_head flex items-center justify-center mb-6 ">
         <h1 className="text-3xl font-bold">My <span className="text-[#01F191]">Services</span></h1>
       </div>

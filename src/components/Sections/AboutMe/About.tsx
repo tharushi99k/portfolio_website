@@ -20,11 +20,11 @@ const About = () => {
       {/* Right Side - Content */}
       <div className="w-full md:w-2/3 p-6 flex flex-col items-start justify-center gap-6 text-center md:text-left ">
         {/* About Me Section */}
-        <div className="flex flex-col items-center md:items-start w-full gap-16">
+        <div className="flex flex-col items-center md:items-start w-full gap-6">
           <h1 className="text-3xl font-bold">
             About <span className="text-[#01F191]">Me</span>
           </h1>
-          <p className="text-base w-full md:w-[80%] text-justify">
+          <p className="text-sm w-full md:w-[80%] text-justify">
             I am a passionate software engineering intern with a strong
             foundation in full-stack development, problem-solving, and IT
             management. I enjoy building scalable applications and continuously
@@ -35,7 +35,7 @@ const About = () => {
         {/* Navigation Buttons */}
         <div className="flex gap-4 mb-4 w-full justify-center md:justify-start">
           <button
-            className={`px-4 py-2 rounded-lg text-lg font-semibold transition ${
+            className={`px-4 py-2 rounded-lg text-base font-semibold transition ${
               activeTab === "experience"
                 ? "bg-[#01F191] text-black shadow-md"
                 : "bg-gray-200 text-black"
@@ -45,7 +45,7 @@ const About = () => {
             Experience
           </button>
           <button
-            className={`px-4 py-2 rounded-lg text-lg font-semibold transition ${
+            className={`px-4 py-2 rounded-lg text-base font-semibold transition ${
               activeTab === "education"
                 ? "bg-[#01F191] text-black shadow-md"
                 : "bg-gray-200 text-black"
@@ -61,7 +61,7 @@ const About = () => {
           {activeTab === "experience" && (
             <div className="flex flex-col gap-2">
               <h2 className="text-2xl font-bold">Experience</h2>
-              <ul className="list-disc pl-5 text-left">
+              <ul className="list-disc pl-5 text-left text-sm">
                 <li>Software Engineer Intern | Coding Legends (2024 – Present)</li>
                 <li>
                   Gaining hands-on experience in full-stack development,
@@ -76,7 +76,7 @@ const About = () => {
           {activeTab === "education" && (
             <div className="flex flex-col gap-2">
               <h2 className="text-2xl font-bold">Education</h2>
-              <ul className="list-disc pl-5 text-left">
+              <ul className="list-disc pl-5 text-left text-sm">
                 <li>
                   BSc (Hons) in Information Technology and Management - University
                   of Moratuwa, Faculty of Information Technology

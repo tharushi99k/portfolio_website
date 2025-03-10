@@ -7,11 +7,11 @@ const Contact = () => {
     <div className="flex flex-col items-center justify-start pt-[5rem] pb-[3rem] w-full ">
       {/* Contact Header */}
       <div className="text_head flex items-center justify-center">
-        <h1 className="text-3xl md:text-4xl font-semibold">
+        <h1 className="text-3xl md:text-3xl font-semibold">
           Contact <span className="text-[#01F191]">Me</span>
         </h1>
       </div>
-      <div className="pt-[4rem] w-[90%] sm:w-[80%] lg:w-[70%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 items-center md:pt-[7rem]">
+      <div className="pt-[4rem] w-[90%] sm:w-[80%] lg:w-[70%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 items-center ">
         <ContactCard />
 
         <div className="flex flex-col items-center justify-center w-full gap-6 sm:gap-8 lg:gap-10">
