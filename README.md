@@ -1,5 +1,7 @@
 # Portfolio Website
 
+Published wepsite-https://portfolio-tharushinishshanka.netlify.app/
+
 Welcome to my portfolio website! This project serves as a showcase for my technical skills, personal projects, and professional achievements. It highlights my proficiency in web development and showcases interactive elements and modern web technologies.
 
 ## 🌟 Features
@@ -9,19 +11,7 @@ Welcome to my portfolio website! This project serves as a showcase for my techni
 - **Interactive Project Showcase:** Each project section includes detailed descriptions, images, and links to external repositories or live demos.
 - **Contact Form with Email Functionality:** A contact form integrated with **email functionality** allows users to easily get in touch.
 
-## 📸 Screenshots
 
-### Home Page
-![Home Page](./screenshots/homepage.png)
-
-### Projects Section
-![Projects Section](./screenshots/projects.png)
-
-### Skills Section
-![Projects Section](./screenshots/skills.png)
-
-### Contact Form
-![Contact Form](./screenshots/emailform.png)
 
 ## 🚀 Technologies Used
 
