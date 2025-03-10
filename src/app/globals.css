@@ -135,32 +135,35 @@
     }
 }
   
-  /* Custom Scrollbar Styles */
+  
 html {
-  scrollbar-width: thin; /* For Firefox */
-  scrollbar-color: #2F2D36 #01F191; /* For Firefox */
+  scrollbar-width: thin; 
+  scrollbar-color: #2F2D36 #01F191; 
 }
 
-/* Webkit Browsers (Chrome, Safari, Edge) */
+
 ::-webkit-scrollbar {
   width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #f1f1f1; /* Track color */
+  background-color: #f1f1f1; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #888; /* Thumb color */
-  border-radius: 10px; /* Optional: Rounded corners */
+  background-color: #888; 
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #555; /* Darker thumb on hover */
+  background-color: #555; 
 }
 
-/* Optional: Scrollbar for horizontal scrolling */
+
 ::-webkit-scrollbar-horizontal {
   height: 8px;
 }
-  
+
+html, body {
+  overflow-x: hidden;
+}
